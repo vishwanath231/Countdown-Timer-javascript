@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #feff89;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 400px;
+    margin:140px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.02) 0px 4px 16px,
+    rgba(17, 17, 26, 0.02) 0px 8px 24px,
+    rgba(17, 17, 26, 0.02) 0px 16px 56px
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Ubuntu",sans-serif;
+}
+.color{
+     color: #f85959;
+}
+
+.form{
+    margin: 40px 70px 0 70px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 14px;
+    box-shadow: 0px 7px 33px -4px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    font-family: "poppins",sans-serif;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-inner-spin-button {
+    background-image: url("../icon/2.png");
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+#day,
+#hour,
+#minute,
+#second {
+    color: #f85959;
+    font-size: 40px;
+    font-weight: 700;
+}
